@@ -13,5 +13,5 @@ Here’s a breakdown of those gnarly `wget` switches:
 - `-k` converts absolute URLs (starting with http://) to local, relative URLs ( starting with ./ or ../../../ or whatever)
 - `-E` renames files so their extension matches their type (e.g., .asp → .html)
 - `-H` spans hosts (so res.cloudinary images get downloaded)
-- `-D[hostname]` limits `-H` so that only links/resources on that host gets followed/downloaded (can specify multiple with commas, like `-Dres.cloudinary.com,demo-res.cloudinary.com`) (edited)
+- `-D[hostname]` limits `-H` so that only links/resources on that host gets followed/downloaded (can specify multiple with commas, like `-Dres.cloudinary.com,demo-res.cloudinary.com`)
 
